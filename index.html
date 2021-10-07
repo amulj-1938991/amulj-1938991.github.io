@@ -1,9 +1,60 @@
 <!DOCTYPE html>
+
 <html >
     <head>
         <title>Hello World</title>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <div class="heading">            
+            <h1 style="font-family: 'Birthstone', cursive; color: white">Hello World!</h1>
+        </div>
+        <div id="image-container" style="display: flex; align-items: center; justify-content: center; background-color: lightblue; margin: 0px 60px 0px 60px;">
+            <img src="https://i.redd.it/ypazmem7wcg61.jpg" alt="waving dog!">
+        </div>
+
+        <object data="paw.jpg"></object>
+
+        <div class="heading">            
+            <h1 style="font-family: 'Birthstone', cursive; color: white">Dog Waving iFrames!</h1>
+        </div>
+        <div id="iframe-container" style="display: flex; align-items: center; justify-content:space-evenly; margin: 10px 0px 0px 0px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k8HED22NAT4?playlist=k8HED22NAT4&loop=1&start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4ONdEb1bt9U?playlist=4ONdEb1bt9U&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="heading">
+            <h1 style="font-family: 'Birthstone', cursive; color: white">Audio</h1>
+        </div>
+        <div id="audio-container" style="display: flex; align-items: center; justify-content: center;">
+            <audio controls>
+                <source src="Never Gonna Give You Up Original.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="heading">
+            <h1 style="font-family: 'Birthstone', cursive; color: white">Video</h1>
+        </div>
+        <div id="audio-container" style="display: flex; align-items: center; justify-content: center;">
+            <video width="500px" height="auto" controls>
+                <source src="production ID_5126333.mp4" type="video/mp4">
+            </video>
+        </div> 
+        <div class="heading">            
+            <h1 style="font-family: 'Birthstone', cursive; color: white">Map iFrames</h1>
+        </div>
+        <div id="iframe-container" style="display: flex; align-items: center; justify-content:space-evenly; margin: 10px 0px 0px 0px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89438.58846814027!2d-122.89966093479666!3d45.53109319788227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950f14ae210989%3A0x576a498608be9cdc!2sPetSmart!5e0!3m2!1sen!2sus!4v1633572235902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+
     </body>
 </html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+    .heading {
+        background-color: rgb(84, 136, 154); text-align: center; margin: 10px 60px 20px 60px; padding: 5px 0px 5px 0px;
+    }
+</style>
