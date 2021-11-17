@@ -1,0 +1,54 @@
+#paragraph1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#paragraph2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.resizedTo50x50 {
+    width: 50px;
+    height: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#photoTextContainer {
+    position: relative;
+}
+
+#textOnPicture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#pictureContainer {
+    width: 100px;
+    height: 100px;
+    background-color: paleturquoise;
+}
+
+.put20pxMargins{
+    width:20px;
+    height: auto;
+    margin: 20px 20px;
+}
+
+.dots {
+    border: dotted 1px black;
+}
+
+#floatedLeft {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.roundedCorners {
+    border-radius: 10px;
+}
